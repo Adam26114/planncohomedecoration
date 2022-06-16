@@ -11,6 +11,8 @@ body{
     margin:0;
 }
 
+/* Start header */
+
 header{
     height: 100vh;
     background:linear-gradient(
@@ -22,3 +24,14 @@ header{
     background-size:cover;
     background-position:center;
 }
+
+/* End header */
+
+/* Start nav bar */
+
+.navbar{
+    background:linear-gradient(rgba(0,0,0,0.6),var(--secondary-color));
+    padding:20px 30px;
+}
+
+/* End nav bar */
