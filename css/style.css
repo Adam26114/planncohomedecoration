@@ -34,4 +34,14 @@ header{
     padding:20px 30px;
 }
 
+.menuitems{
+    color:#fff;
+    font-size:14px;
+    letter-spacing:1px;
+}
+
+.menuitems:hover{
+    color:#1aaee8;
+}
+
 /* End nav bar */
