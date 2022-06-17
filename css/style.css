@@ -44,4 +44,20 @@ header{
     color:#1aaee8;
 }
 
+.lines1,.lines2,.lines3{
+    width:25px;
+    height:3px;
+    margin:6px;
+}
+
 /* End nav bar */
+
+/* start banner */
+.banners{
+    width:80%;
+
+    position:absolute;
+    left:0;
+    top:0;
+}
+/* end banner */
