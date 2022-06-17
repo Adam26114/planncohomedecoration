@@ -23,6 +23,8 @@ header{
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
+
+    position: relative;
 }
 
 /* End header */
@@ -57,7 +59,9 @@ header{
     width:80%;
 
     position:absolute;
-    left:0;
-    top:0;
+    left:50%;
+    top:100%;
+
+    transform:translate(-50%,-50%);
 }
 /* end banner */
