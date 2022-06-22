@@ -1,49 +1,45 @@
+/* google font */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
 :root{
-	/*hue-saturation-lightness-alpha*/
-	--primary-color: hsl(330, 87%, 17%);
-	--secondary-color:hsl(203,100% ,13%,1);
+    --primary-color:hsl(330,87%,17%);
+    --secondary-color:hsla(203,100%,13%,1);
 }
 
 body{
-	font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     margin:0;
 }
 
 /* Start header */
-
 header{
-    height: 100vh;
+    height:100vh;
     background:linear-gradient(
         30deg,
         rgba(0,0,0,0),
         rgba(0,0,0,0.5)
-    ) , url('../assets/img/banner/banner2.jpg');
+        ),url('../assets/img/banner/banner2.jpg');
     background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-position: center;
 
     position: relative;
 }
 
-/* End header */
-
 /* Start nav bar */
-
 .navbar{
     background:linear-gradient(rgba(0,0,0,0.6),var(--secondary-color));
     padding:20px 30px;
 }
 
 .menuitems{
-    color:#eeee;
+    color: #eee;
     font-size:14px;
     letter-spacing:1px;
 }
 
 .menuitems:hover{
-    color:#1aaee8;
+    color:#1aeee8;
 }
 
 .lines1,.lines2,.lines3{
@@ -54,14 +50,39 @@ header{
 
 /* End nav bar */
 
-/* start banner */
+/* Start banner */
 .banners{
-    width:80%;
-
+    width: 80%;
     position:absolute;
     left:50%;
-    top:100%;
+    top:50%;
 
     transform:translate(-50%,-50%);
 }
-/* end banner */
+
+.bannerheaders{
+    animation-name:bananni;
+    animation-duration:2s;
+}
+
+.bannerparagraph{
+    animation-name:bananni;
+    animation-duration:2s;
+    animation-delay:0.8s;
+    animation-fill-mode:backwards;
+}
+
+@keyframes bananni {
+    0%{
+        opacity:0;
+        transform:translateX(-100px);
+    }
+
+    100%{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+/* End Banner */
+
+/* End header */
