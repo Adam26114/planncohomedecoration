@@ -160,3 +160,45 @@ header{
 }
 
 /* End About US */
+
+/* Start Properties */
+.titles{
+    /* background-color:green; */
+    text-transform:uppercase;
+    color:var(--secondary-color);
+    display:inline-block;
+    padding:5px 20px;
+
+    position: relative;
+}
+
+.titles::before,.titles::after{
+    content:'';
+    width:20px;
+    height:20px;
+
+    position:absolute;
+}
+
+.titles::before{
+    border-left:3px solid var(--primary-color);
+    border-bottom:3px solid var(--primary-color);
+
+    left:0;
+    bottom:0;
+}
+
+.titles::after{
+    border-right:3px solid var(--primary-color);
+    border-top:3px solid var(--primary-color);
+
+    right:0;
+    top:0;
+}
+
+
+
+/* End Properties */
+
+
+/*23PP*/
