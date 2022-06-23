@@ -119,6 +119,8 @@ header{
     background-repeat:no-repeat;
     background-position:center;
     background-attachment:fixed;
+
+    position: relative;
 }
 
 .aboutuss lines{
@@ -149,6 +151,12 @@ header{
 .aboutuss h5 ~ p{
     text-align:left;
     margin:30px 0;
+}
+
+.aboutuss img{
+    width:350px;
+    position:absolute;
+    bottom:0;
 }
 
 /* End About US */
