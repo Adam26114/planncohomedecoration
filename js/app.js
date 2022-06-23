@@ -12,7 +12,7 @@ $(document).ready(function(){
                 
            //for nav
            $(window).scoll(function(){
-            //    console.log('hay');
+                // console.log('hay');
                 let getscolltop = $(this).scollTop();
 
 
