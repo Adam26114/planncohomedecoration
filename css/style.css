@@ -196,7 +196,14 @@ header{
     top:0;
 }
 
+.propertylists{
+    color:#777;
+    cursor:pointer;
+}
 
+.activeitems{
+    color:var(--primary-color);
+}
 
 /* End Properties */
 
