@@ -11,12 +11,12 @@ $(document).ready(function(){
             } );
                 
            //for nav
-           $(window).scoll(function(){
+           $(window).scroll(function(){
                 // console.log('hay');
-                let getscolltop = $(this).scollTop();
+                let getscrolltop = $(this).scrollTop();
+                // console.log(getscrolltop);
 
-
-                if(getscolltop >= 200){
+                if(getscrolltop >= 200){
                     $('.navbar').addClass('navmenus');
                 }else{
                     $('.navbar').removeClass('navmenus');
