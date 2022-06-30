@@ -262,6 +262,7 @@ header{
 }
 
 .servicecard{
+    position: relative;
     overflow:hidden;
 }
 
@@ -271,6 +272,20 @@ header{
 
 .servicecard:hover img{
     transform:scale(1.1);
+}
+
+.servicetext{
+    width:40%;
+    background-color:rgba(0,0,0,0.7);
+    font-size:14px;
+    text-align:center;
+    letter-spacing:1px;
+
+    opacity:0.7;
+
+    position:absolute;
+    right:0;
+    top:80%;
 }
 
 /* End Our Services */
