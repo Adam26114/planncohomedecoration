@@ -55,4 +55,21 @@ $(document).ready(function(){
         showImageNumberLabel:false
     })
     //End properties 
+
+    //Start Adv Section
+
+    $(window).scroll(function(){
+        let getscrolltop = $(this).scrollTop();
+        // console.log(getscrolltop);
+
+        if(getscrolltop >= 900){
+            $(".advimages").addClass("fromleft");
+            $(".advtexts").addClass("fromright");
+        }else{
+            $(".advimages").removeClass("fromleft");
+            $(".advtexts").removeClass("fromright");
+        }
+    });
+
+    //End Adv Section
 });

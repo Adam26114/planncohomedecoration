@@ -215,6 +215,40 @@ header{
 }
 
 
+.fromleft{
+    animation-name:fromleft;
+    animation-duration:3s;
+}
+
+
+.fromright{
+    animation-name:fromright;
+    animation-duration:3s;
+}
+
+@keyframes fromleft {
+    0%{
+        opacity:0;
+        transform:translate(-100%);
+    }
+
+    100%{
+        opacity:1;
+        transform:translate(0%);
+    }
+}
+
+@keyframes fromright {
+    0%{
+        opacity:0;
+        transform:translateX(100%);
+    }
+    
+    100%{
+        opacity:1;
+        transform:translateX(0%);
+    }
+}
 
 /* End Adv Section */
 
