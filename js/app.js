@@ -44,6 +44,7 @@ $(document).ready(function(){
         if(getattvalue === 'all'){
             $('.filters').show('slide',500);
         }else{
+            $('.filters').hide();
             $('.filters').not('.'+getattvalue).hide('slide',500);
             $('.filters').filter('.'+getattvalue).show('slide',500);
         }
