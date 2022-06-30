@@ -48,5 +48,10 @@ $(document).ready(function(){
             $('.filters').filter('.'+getattvalue).show('slide',500);
         }
     });
+
+    //For image overlay (or) lightbox2
+    lightbox.option({
+        showImageNumberLabel:false
+    })
     //End properties 
 });
