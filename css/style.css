@@ -215,18 +215,18 @@ header{
 }
 
 
-.fromleft{
-    animation-name:fromleft;
+.fromlefts{
+    animation-name:fromleftani;
     animation-duration:3s;
 }
 
 
-.fromright{
-    animation-name:fromright;
+.fromrights{
+    animation-name:fromrightani;
     animation-duration:3s;
 }
 
-@keyframes fromleft {
+@keyframes fromleftani {
     0%{
         opacity:0;
         transform:translate(-100%);
@@ -238,7 +238,7 @@ header{
     }
 }
 
-@keyframes fromright {
+@keyframes fromrightani{
     0%{
         opacity:0;
         transform:translateX(100%);

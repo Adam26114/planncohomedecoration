@@ -63,11 +63,11 @@ $(document).ready(function(){
         // console.log(getscrolltop);
 
         if(getscrolltop >= 900){
-            $(".advimages").addClass("fromleft");
-            $(".advtexts").addClass("fromright");
+            $(".advimages").addClass("fromlefts");
+            $(".advtexts").addClass("fromrights");
         }else{
-            $(".advimages").removeClass("fromleft");
-            $(".advtexts").removeClass("fromright");
+            $(".advimages").removeClass("fromlefts");
+            $(".advtexts").removeClass("fromrights");
         }
     });
 
