@@ -252,5 +252,28 @@ header{
 
 /* End Adv Section */
 
+/* Start Our Services */
+.services{
+    background:linear-gradient(
+        200deg,
+        var(--primary-color),
+        var(--secondary-color)
+    );
+}
+
+.servicecard{
+    overflow:hidden;
+}
+
+.servicecard img{
+    transition:transform .5s;
+}
+
+.servicecard:hover img{
+    transform:scale(1.1);
+}
+
+/* End Our Services */
+
 
 /*23PP*/
