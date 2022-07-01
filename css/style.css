@@ -267,11 +267,13 @@ header{
 }
 
 .servicecard::before{
-    content:'You  may need our services ? Try and upgrade your living  evenironment.';
+    content:'You  may need our services ? \A Try and upgrade your living  evenironment. \A \f004 \f004 \f004';
+    font-family:'Font Awesome 5 Free';
     width:100%;
     height:100%;
 
     background-color:rgba(0,0,0,0.4);
+    color:#fff;
 
     position:absolute;
     left:0;
