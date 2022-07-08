@@ -379,5 +379,17 @@ ul.clientslists li:hover{
 }
 /* End customers */
 
+/* Start request quote */
+.qutoes{
+    background-color:var(--secondary-color);
+    padding:-30px 50px;
+    margin:-50px;
+    
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* End request quote */
 
 /*23PP*/
