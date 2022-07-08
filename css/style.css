@@ -390,6 +390,11 @@ ul.clientslists li:hover{
     align-items:center;
 }
 
+.qutoes .infos{
+    display:flex;
+    justify-content:space-between;
+}
+
 .qutoes .btn-calls{
     width:170px;
     height:50px;
@@ -409,6 +414,7 @@ ul.clientslists li:hover{
     box-shadow:-3px 3px 3px #444;
     transform:translate(0px);
 }
+
 
 /* End request quote */
 
