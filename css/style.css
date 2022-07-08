@@ -383,10 +383,10 @@ ul.clientslists li:hover{
 .qutoes{
     background-color:var(--secondary-color);
     padding:30px 50px;
-    margin:-50px;
+    margin:-30px;
     
     display: flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items:center;
 }
 
@@ -398,6 +398,7 @@ ul.clientslists li:hover{
 .qutoes .btn-calls{
     width:170px;
     height:50px;
+    font-family:sans-serif;
     background-color:var(--primary-color);
     color:#fff;
     font-size:-15px;
@@ -415,7 +416,27 @@ ul.clientslists li:hover{
     transform:translate(0px);
 }
 
+.phoneicons{
+    width:30px;
+}
+
+@media(max-width:768px){
+    .phoneicons{
+        width:50px;
+    }
+
+}
 
 /* End request quote */
+
+/* Start Furniture Service */
+.furicons img{
+    width:70px;
+}
+
+.furicons > div:nth-of-type(even){
+    background-color:#f1f1f1;
+}
+/* Emd Furniture Service */
 
 /*23PP*/
