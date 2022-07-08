@@ -439,11 +439,49 @@ ul.clientslists li:hover{
 }
 /* Emd Furniture Service */
 
-/* Start Contact Section */
-.submit-btns{
-    /* color:#fff; */
-    /* background-color:var(--primary-color); */
+/* Start Contact */
+.contacts{
+    /* background-image:url('../assets/img/banner/banner3.jpg'); */
+    background:linear-gradient(
+        110deg,
+        rgba(0,0,0,0.9) 60%,
+        rgba(0,0,0,0) 50%
+    ),url('../assets/img/banner/banner3.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
 }
-/* End Contact Section */
 
-/*23PP*/
+.contacts .inputs{
+    background:transparent;
+    border-color:transparent;
+    border-bottom:2px solid #ccc;
+    border-radius:0;
+    color:#fff;
+
+    transition:all .8s;
+}
+
+.contacts .inputs:focus{
+    box-shadow:none;
+    border-bottom:2px solid var(--primary-color);
+}
+
+.submit-btns{
+    background-color:var(--primary-color);
+    color:#fff;
+    border:none;
+
+    transition:all .3s;
+}
+
+.submit-btns:hover{
+    background-color:var(--secondary-color);
+    color:#fff;
+}
+
+/* End Contact */
+
+
+/*8MF*/
