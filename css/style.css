@@ -390,7 +390,7 @@ ul.clientslists li:hover{
     align-items:center;
 }
 
-.qutoes .btn-call{
+.qutoes .btn-calls{
     width:170px;
     height:50px;
     background-color:var(--primary-color);
@@ -400,6 +400,14 @@ ul.clientslists li:hover{
     border:0;
     border-radius:100px;
     padding:0; /*cuz of bootstrap btn effect*/
+    transform:translate(-1px);
+    
+    transition:box-shadow .3s;
+}
+
+.qutoes .btn-calls:hover{
+    box-shadow:-3px 3px 3px #444;
+    transform:translate(0px);
 }
 
 /* End request quote */
