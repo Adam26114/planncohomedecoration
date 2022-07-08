@@ -434,9 +434,16 @@ ul.clientslists li:hover{
     width:70px;
 }
 
-.furicons > div:nth-of-type(even){
+.furicons div:nth-of-type(even){
     background-color:#f1f1f1;
 }
 /* Emd Furniture Service */
+
+/* Start Contact Section */
+.submit-btns{
+    /* color:#fff; */
+    /* background-color:var(--primary-color); */
+}
+/* End Contact Section */
 
 /*23PP*/
