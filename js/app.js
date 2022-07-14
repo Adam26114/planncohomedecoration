@@ -72,4 +72,10 @@ $(document).ready(function(){
     });
 
     //End Adv Section
+
+    // Start Footer
+    const getyear = $("#getyear")
+    const getfullyear = new Date().getUTCFullYear();
+    getyear.text(getfullyear);
+    // End Footer
 });
