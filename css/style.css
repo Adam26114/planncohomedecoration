@@ -492,12 +492,25 @@ ul.clientslists li:hover{
 
 .inputs:placeholder-shown + .lables{
     opacity:0;
-    transform:translateY(-30px);
+    /* transform:translate(1000px); */
 }
-
-
 
 /* End Contact */
 
+
+/* Start Footer */
+.footerlinks{
+    color:#e2e2e2;
+    text-decoration:none;
+    font-size:13px;
+    transition:all .3s;
+}
+
+.footerlinks:hover{
+    color:orange;
+    border-bottom:1px solid orange;
+    letter-spacing:1px;
+}
+/* End Footer */
 
 /*8MF*/
