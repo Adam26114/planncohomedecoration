@@ -482,6 +482,21 @@ ul.clientslists li:hover{
     color:#fff;
 }
 
+
+.lables{
+    color:#e2e2e2;
+    display:block;
+    margin-top:-30px;
+    margin-left:10px;
+}
+
+.inputs:placeholder-shown + .lables{
+    opacity:0;
+    transform:translateY(-30px);
+}
+
+
+
 /* End Contact */
 
 

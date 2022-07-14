@@ -509,22 +509,25 @@
     <section id="contact" class="p-5 contacts">
         <div class="container-fluid">
             <div class="col-lg-5">
-                <h5 class="display-4 text-light">Get New Letter</h5>
+                <h5 class="display-4 text-light mb-3">Get New Letter</h5>
 
                 <form class="" action="" method="">
-                    <div class="form-group">
-                        <label for="name">Name</label>
+                    <div class="form-group py-3">
                         <input type="text" name="name" id="name" class="form-control inputs" placeholder="Enter Your Name" autocomplete="off"/>
+                        <label for="name" class="lables">Name</label>
                     </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
+                    <div class="form-group py-4">
                         <input type="text" name="email" id="email" class="form-control inputs" placeholder="Enter Your Email" autocomplete="off"/>
+                        <label for="email" class="lables">Email</label>
                     </div>
 
-                    <div class="form-check form-switch text-light">
-                        <input type="checkbox" name="accept"  id="accept" class="form-check-input"/>
-                        <label for="accept">I agree to push notify</label>
+                    <div class="my-4">
+                        <div class="form-check form-switch">
+                            <input type="checkbox" name="accept"  id="accept" class="form-check-input"/>
+                            <label for="accept" class="text-light">I agree to get push notify</label>
+                        </div>
                     </div>
+
                     
                     <div class="d-grid">
                         <button type="button" class="btn text-uppercase rounded-0 submit-btns">Subscribe</button>
