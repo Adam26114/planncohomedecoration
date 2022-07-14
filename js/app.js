@@ -2,6 +2,22 @@
 $(document).ready(function(){
     // console.log('hi');
 
+
+    // Start Back To Top
+    $(".btn-backtotops").hide();
+    $(window).scroll(function(){
+        let getscrolltop = $(this).scrollTop();
+        // console.log(getscoltop);
+
+        if(getscrolltop >= 370){
+            $('.btn-backtotops').fadeIn(1000);
+        }else{
+            $('.btn-backtotops').fadeOut(1000);
+
+        }
+    });
+    // End Back To Top
+
     //Start Header
 
         //Start nav
