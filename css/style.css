@@ -443,9 +443,10 @@ ul.clientslists li:hover{
 .contacts{
     /* background-image:url('../assets/img/banner/banner3.jpg'); */
     background:linear-gradient(
-        110deg,
-        rgba(0,0,0,0.9) 60%,
-        rgba(0,0,0,0) 50%
+        100deg,
+        rgba(0,0,0,0.9) 50%,
+        rgba(0,0,0,0) 30%,
+        transparent 70%
     ),url('../assets/img/banner/banner3.jpg');
     background-repeat:no-repeat;
     background-size:cover;
