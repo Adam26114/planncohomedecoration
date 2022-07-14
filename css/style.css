@@ -501,13 +501,15 @@ ul.clientslists li:hover{
 .lables{
     color:#e2e2e2;
     display:block;
-    margin-top:-30px;
+    margin-top:-59px;
     margin-left:10px;
+    transition:all .5s;
 }
 
 .inputs:placeholder-shown + .lables{
     opacity:0;
-    /* transform:translate(1000px); */
+    /* visibility:hidden; */
+    transform:translateY(25px);
 }
 
 /* End Contact */
